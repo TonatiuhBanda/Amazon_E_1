@@ -156,7 +156,7 @@ df_filtrado.show(3)
 
 
 df_pandas = df_filtrado.toPandas()
-nombre_csv = "sample/products_standard_price_sample.csv"
+nombre_csv = "output/products_standard_price_sample.csv"
 df_pandas.to_csv(nombre_csv, index=False)
 
 
